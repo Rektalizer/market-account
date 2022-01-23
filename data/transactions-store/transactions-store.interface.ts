@@ -1,6 +1,6 @@
 import {Observable} from 'rxjs'
-import {Transaction} from "../../models/transaction/transaction.interface";
-import {TransactionDetails} from "../../models/transaction-details/transaction-details.interface";
+import {Transaction} from "../../interfaces/transaction/transaction.interface";
+import {TransactionDetails} from "../../interfaces/transaction/transaction-details.interface";
 
 export interface TransactionStore {
     getLoaded$(): Observable<boolean>,

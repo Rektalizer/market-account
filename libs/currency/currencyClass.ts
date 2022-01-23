@@ -4,11 +4,14 @@ export class Currency {
     currencyCode: string;
     isBaseCurrency: boolean;
 
-    constructor() {
+    constructor(currencyCode: string) {
+        this.currencyCode = currencyCode;
     }
 
     public toString(): string{
-        return
+        return this.currencyCode;
     }
+
+
 
 }
